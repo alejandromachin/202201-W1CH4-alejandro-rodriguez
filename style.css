@@ -106,3 +106,49 @@ a {
 .line-through {
   text-decoration: line-through;
 }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff8d27;
+  padding: 5px 10px;
+  height: 300px;
+}
+
+.form-container__form {
+  position: relative;
+  font-size: 12px;
+  gap: 7px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.form-container__form h3 {
+  font-size: 20px;
+}
+
+.form__button {
+  font-size: 10px;
+  color: white;
+  background-color: #5e81d1;
+  box-shadow: none;
+  border: none;
+  width: 60px;
+  height: 25px;
+}
+
+.form__box {
+  position: relative;
+  width: 120px;
+  height: 25px;
+  border: none;
+}
+
+.form__box::after {
+  position: absolute;
+  content: "€";
+  color: black;
+  top: 5px;
+  right: -15px;
+}

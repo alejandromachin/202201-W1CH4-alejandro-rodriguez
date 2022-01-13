@@ -34,12 +34,19 @@
         <form class="form-container__form">
           <h3>Editar Artículo</h3>
           <label for="name">Nombre:</label>
-          <input type="text" id="name" name="product_name" />
+          <input type="text" id="name" name="product_name" class="form__box" />
 
           <label for="price">Precio:</label>
-          <input type="number" id="price" name="product_price" />
+          <div class="form__box">
+            <input
+              type="number"
+              id="price"
+              name="product_price"
+              class="form__box"
+            />
+          </div>
 
-          <button type="submit">Modificar</button>
+          <button type="submit" class="form__button">Modificar</button>
         </form>
       </section>
     </main>
