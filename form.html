@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://png.pngtree.com/png-clipart/20191017/ourlarge/pngtree-3d-green-check-icon-png-image_1772786.jpg"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/dc6383c726.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopapp</title>
+  </head>
+  <body class="container">
+    <header class="header">
+      <h1 class="header__tittle">Lista de la compra</h1>
+      <ul class="navigation">
+        <li class="navigation__button--principal"><a href="#">Principal</a></li>
+        <li class="navigation__button--lista"><a href="#">Lista</a></li>
+        <li class="navigation__button--acerca-de"><a href="#">Acerca de</a></li>
+      </ul>
+    </header>
+    <main>
+      <section class="control">
+        <i class="fas fa-minus-circle fa-3x"></i>
+
+        <h2 class="control__heading">2/3 Comprados</h2>
+      </section>
+      <section class="form-container">
+        <form class="form-container__form">
+          <h3>Editar Artículo</h3>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="product_name" />
+
+          <label for="price">Precio:</label>
+          <input type="number" id="price" name="product_price" />
+
+          <button type="submit">Modificar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
