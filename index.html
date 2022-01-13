@@ -8,42 +8,46 @@
       href="https://png.pngtree.com/png-clipart/20191017/ourlarge/pngtree-3d-green-check-icon-png-image_1772786.jpg"
       type="image/x-icon"
     />
+    <script
+      src="https://kit.fontawesome.com/dc6383c726.js"
+      crossorigin="anonymous"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopapp</title>
   </head>
   <body>
-    <header>
-      <h1>Lista de la compra</h1>
+    <header class="header">
+      <h1 class="header__tittle">Lista de la compra</h1>
       <nav>
-        <ul>
-          <li>Principal</li>
-          <li>Lista</li>
-          <li>Acerca de</li>
+        <ul class="navigation">
+          <li class="navigation__button--principal">Principal</li>
+          <li class="navigation__button--lista">Lista</li>
+          <li class="navigation__button--acerca-de">Acerca de</li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <i></i>
+      <section class="control">
+        <i class="fas fa-plus-circle"></i>
         <div>
-          <p>2/3 Comprados</p>
+          <h2 class="control__heading">2/3 Comprados</h2>
         </div>
       </section>
-      <section>
-        <section>
+      <section class="item-list">
+        <section class="item-list__item">
           <label><input type="checkbox" value="checkbox" /></label>
           <p>Pan</p>
         </section>
-        <section>
+        <section class="item-list__item">
           <label><input type="checkbox" value="checkbox" /></label>
           <p>Azúcar</p>
         </section>
-        <section>
+        <section class="item-list__item">
           <label><input type="checkbox" value="checkbox" /></label>
           <p>Leche</p>
         </section>
-        <div></div>
-        <section><p>1.95€</p></section>
+        <div class="linea"></div>
+        <section class="total"><p>1.95€</p></section>
       </section>
     </main>
   </body>
