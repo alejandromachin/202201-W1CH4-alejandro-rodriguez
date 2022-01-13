@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.html {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+}
+.container {
+  width: 400px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-between;
+  background-color: #5e81d1;
+  border: 1px solid black;
+}
+
+.header h1 {
+  font-size: 20px;
+}
+.navigation {
+  font-size: 10px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width: 150px;
+}
+.navigation__button--lista p {
+  font-weight: bold;
+}
+
+.control {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f87500;
+  border: 1px solid black;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #ff8d27;
+  border: 1px solid black;
+}
+.item-list__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-izquierdo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item-derecho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 1px;
+  background-color: white;
+}
+
+.total {
+  display: flex;
+  justify-content: left;
+}
+
+.total p {
+  display: flex;
+  justify-content: left;
+}
