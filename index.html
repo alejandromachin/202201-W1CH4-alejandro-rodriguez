@@ -19,14 +19,14 @@
     <header class="header">
       <h1 class="header__tittle">Lista de la compra</h1>
       <ul class="navigation">
-        <li class="navigation__button--principal"><p>Principal</p></li>
-        <li class="navigation__button--lista"><p>Lista</p></li>
-        <li class="navigation__button--acerca-de"><p>Acerca de</p></li>
+        <li class="navigation__button--principal"><a href="#">Principal</a></li>
+        <li class="navigation__button--lista"><a href="#">Lista</a></li>
+        <li class="navigation__button--acerca-de"><a href="#">Acerca de</a></li>
       </ul>
     </header>
     <main>
       <section class="control">
-        <i class="fas fa-plus-circle"></i>
+        <i class="fas fa-plus-circle fa-3x"></i>
 
         <h2 class="control__heading">2/3 Comprados</h2>
       </section>
@@ -34,7 +34,7 @@
         <section class="item-list__item">
           <div class="item-izquierdo">
             <label><input type="checkbox" value="checkbox" /></label>
-            <p>Pan</p>
+            <p class="line-through">Pan</p>
           </div>
           <div class="item-derecho">
             <p>0.75€</p>
@@ -54,7 +54,7 @@
         <section class="item-list__item">
           <div class="item-izquierdo">
             <label><input type="checkbox" value="checkbox" /></label>
-            <p>Leche</p>
+            <p class="line-through">Leche</p>
           </div>
           <div class="item-derecho">
             <p>1.20€</p>
@@ -62,7 +62,7 @@
           </div>
         </section>
         <div class="line"></div>
-        <section class="total"><p>1.95€</p></section>
+        <div class="total"><p>1.95€</p></div>
       </section>
     </main>
   </body>
